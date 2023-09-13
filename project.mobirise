@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "tracking-parcel.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "petsm4",
       "title": "PetsM4",
@@ -1362,11 +1362,11 @@
             }
           },
           "_cid": "tPF4deqsld",
+          "_anchor": "people03-6n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "people03-6n"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4081,11 +4081,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPxyiiLMly",
+          "_anchor": "menu1-1b",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-1b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4170,11 +4170,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPxyikETgJ",
+          "_anchor": "header1-1c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-1c"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4231,11 +4231,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPxyinI28V",
+          "_anchor": "features5-1g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features5-1g"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4487,11 +4487,11 @@
             }
           },
           "_cid": "tPzYFDdpyz",
+          "_anchor": "share1-2y",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "share1-2y"
+          "_params": {}
         },
         {
           "alias": false,
@@ -6727,11 +6727,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPzMD72Pq8",
+          "_anchor": "menu1-2k",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-2k"
+          "_params": {}
         },
         {
           "alias": false,
@@ -6816,11 +6816,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPzMD8aP3u",
+          "_anchor": "header1-2l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-2l"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7017,11 +7017,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPzMD9ag8x",
+          "_anchor": "features5-2m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features5-2m"
+          "_params": {}
         },
         {
           "alias": false,
@@ -7684,13 +7684,13 @@
             }
           },
           "_cid": "tPDxerFasn",
+          "_anchor": "content07-3f",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-3f",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_params": {}
         },
         {
           "alias": false,
@@ -10030,11 +10030,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPDLH6nkSO",
+          "_anchor": "menu1-3y",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-3y"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10115,11 +10115,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPDLH7kvXk",
+          "_anchor": "header1-3z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-3z"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10200,11 +10200,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPDLH8A68e",
+          "_anchor": "content3-41",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content3-41"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10286,11 +10286,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPDLH9k5bg",
+          "_anchor": "content3-42",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content3-42"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -10342,11 +10342,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPDLHdTZLd",
+          "_anchor": "content07-48",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-48"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10416,11 +10416,11 @@
           "_sourceTheme": "petsm4",
           "_customHTML": "<section class=\"features11 petsm4_features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        \n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Main Title\" name=\"showmainTitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Card\" name=\"cardColor\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        \n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n            <div class=\"col-12 col-md-12 col-lg-12\" mbr-if=\"showmainTitle\">\n                <h2 class=\"align-center pb-5 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-2\">Our Services</h2>\n            </div>\n\n            <div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper align-left\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/certificate-of-no-drugs-in-nepal-300x198.jpg\" alt title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">Pets\n                            Boarding</h4>\n                        <p class=\"mbr-text pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Pellentesque habitant felis morbi tristique\n                            senectus et netus et malesuada fames ac turpis netus egestas.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE<br></a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper align-left\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/direct-way-exporters-certificate-of-customs-course-300x221.jpg\" alt title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                            Healthy Meals</h4>\n                        <p class=\"mbr-text pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Pellentesque habitant felis morbi tristique senectus et netus et malesuada fames ac turpis\n                            netus egestas. </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE<br></a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper align-left\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/03.jpg\" alt title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                            Activity Games</h4>\n                        <p class=\"mbr-text pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Pellentesque habitant felis morbi tristique senectus et netus et malesuada fames ac turpis\n                            netus egestas. </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE<br></a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper align-left\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/04.jpg\" alt title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-2 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">Pet Taxi</h4>\n                        <p class=\"mbr-text pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Pellentesque habitant felis morbi tristique senectus et netus et malesuada fames ac turpis\n                            netus egestas. </p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE<br></a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tPDPLkZJQ8",
+          "_anchor": "features11-4d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features11-4d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10599,11 +10599,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPDLHerclu",
+          "_anchor": "progress-bars2-49",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "progress-bars2-49"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12346,11 +12346,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPDUWUWByy",
+          "_anchor": "menu1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-4x"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12431,11 +12431,11 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tPDUWW1dHH",
+          "_anchor": "header1-4y",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-4y"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -12487,11 +12487,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPDUWWMEzI",
+          "_anchor": "content07-4z",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-4z"
+          "_params": {}
         },
         {
           "_name": "slider2",
@@ -12780,11 +12780,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPDUWXlYn4",
+          "_anchor": "content07-50",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-50"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13440,11 +13440,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPEE5ntszv",
+          "_anchor": "menu1-5h",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5h"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13496,11 +13496,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5pvyPc",
+          "_anchor": "content07-5j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5j"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13551,11 +13551,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5q78Pt",
+          "_anchor": "content07-5k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5k"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13606,11 +13606,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5qKA0S",
+          "_anchor": "content07-5l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5l"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13661,11 +13661,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5rqoIn",
+          "_anchor": "content07-5m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5m"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13716,11 +13716,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5s4rSW",
+          "_anchor": "content07-5n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5n"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -13771,11 +13771,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEE5sN1da",
+          "_anchor": "content07-5o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-5o"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -14421,11 +14421,11 @@
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.5\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconColor\" value=\"#0f7699\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#0b1b3f\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#f2f2f4\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\" mbr-class=\"{\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"container\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://directwaycargo.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/directwaylogo%20copy-280x80.png\" alt=\"Directwaycargo\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-secondary text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">Direct Way Cargo</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">HOME</a>\n                    </li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-secondary text-primary dropdown-toggle\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">OUR SERVICE</a><div class=\"dropdown-menu\"><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-28\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">AIR CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header1-29\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">SEA CARGO</a><a class=\"text-secondary text-primary dropdown-item\" href=\"services-direct-way-cargo.html#header2-2a\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">COURIER SERVICE</a></div></li>\n                    \n\n                    <li class=\"nav-item\">\n                        <a class=\"nav-link link text-secondary text-primary\" href=\"tracking-parcel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TRACKING</a>\n                    </li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"about-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary text-primary\" href=\"contact-direct-way-cargo.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT</a></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a href=\"https://twitter.com/DIRECTWAY\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-vimeo socicon\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                    <a href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont mbri-info\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tel:+977-1-5350337\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>+977-1-5350337</a></div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_sourceTheme": "petsm4",
           "_cid": "tPEJCUNiGK",
+          "_anchor": "menu1-5y",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-5y"
+          "_params": {}
         },
         {
           "alias": false,
@@ -14588,11 +14588,11 @@
           "_sourceTheme": "petsm4",
           "_customHTML": "<section group=\"Teams\" class=\"team3 petsm4_team3\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"5\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"5\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<header>Show / Hide</header>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showsubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Col Text\" name=\"showText\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#383838\" selected>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container-fluid\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-md-12 content py-4 col-lg-5 \">\n\t\t\t\t<h1 class=\"mbr-section-title align-left mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Popular items to buy in Nepal</h1>\n\t\t\t\t<p class=\"align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showsubTitle\">From a personal and business perspective we at Direct Way Cargo Nepal have put together a comprehensive list of items that are very popular to purchase in Nepal. We hope this will give you an indication of what easily available here.<br><br><i>We also have several wholesale and manufacturing partners that produce export quality goods at below retail prices. Please let us know if you interested in making any direct purchases and saving money in advance!</i></p>\n\n\t\t\t\t<div class=\"icons-wrap row\">\n\t\t\t\t\t<div class=\"icon-wrap align-left col-md-4\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbrib-github  \" mbr-if=\"showIcons\"></span>\n\t\t\t\t\t\t<div class=\"text-wrap\" mbr-if=\"showText\">\n\t\t\t\t\t\t\t<h3 class=\"icon-title align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title, .icon-wrap\">CAT CARE</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-regular align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .content\"> Lorem\n\t\t\t\t\t\t\t\tipsum dolor amet, consectetur adipiscing elit.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"icon-wrap align-left col-md-4\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbrib-apple  \" mbr-if=\"showIcons\"></span>\n\t\t\t\t\t\t<div class=\"text-wrap\" mbr-if=\"showText\">\n\t\t\t\t\t\t\t<h3 class=\"icon-title align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title, .mbr-iconfont\">NUTRITION</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-regular align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .content\"> Lorem ipsum\n\t\t\t\t\t\t\t\tdolor amet, consectetur adipiscing elit.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"icon-wrap align-left col-md-4\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbrib-hearth  \" mbr-if=\"showIcons\"></span>\n\t\t\t\t\t\t<div class=\"text-wrap\" mbr-if=\"showText\">\n\t\t\t\t\t\t\t<h3 class=\"icon-title align-left mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".icon-title, .mbr-iconfont\">FIRST AID</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-regular align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .content\"> Lorem ipsum\n\t\t\t\t\t\t\t\tdolor amet, consectetur adipiscing elit.</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-md-12 col-lg-7 img-col\">\n\t\t\t\t<div class=\"mbr-figure\">\n\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/products1-300x225.jpg\" alt>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "tPEKhcmsKP",
+          "_anchor": "team3-67",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "team3-67"
+          "_params": {}
         },
         {
           "alias": false,
@@ -14731,11 +14731,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEJCWp5Uv",
+          "_anchor": "content07-60",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-60"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -14841,11 +14841,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEJCXuOBM",
+          "_anchor": "content07-62",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-62"
+          "_params": {}
         },
         {
           "alias": false,
@@ -15067,11 +15067,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEJCY2PnG",
+          "_anchor": "content07-63",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-63"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -15122,11 +15122,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEJCYxxJ8",
+          "_anchor": "content07-64",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-64"
+          "_params": {}
         },
         {
           "_name": "content07",
@@ -15177,11 +15177,11 @@
           "_PHPplaceholders": [],
           "_isUserblock": true,
           "_cid": "tPEJCZ1NdM",
+          "_anchor": "content07-65",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content07-65"
+          "_params": {}
         },
         {
           "alias": false,
